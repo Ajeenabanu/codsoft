@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal2</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+        <div id="cal">
+            <div>
+                <h3 id="heading">CASIO</h3></div>
+            <div id="screan">
+                <input type="text" id="inputText">
+            </div>
+            <div>
+                <div>
+                    <button onclick="bclick(1)" class="buttons">1</button>
+                    <button onclick="bclick(2)" class="buttons">2</button>
+                    <button onclick="bclick(3)" class="buttons">3</button>
+                    <button onclick="bclick('+')" class="buttons">+</button>
+                </div>
+                <div>
+                    <button onclick="bclick(4)"class="buttons">4</button>
+                    <button onclick="bclick(5)"class="buttons">5</button>
+                    <button onclick="bclick(6)" class="buttons">6</button>
+                    <button onclick="bclick('-')" class="buttons">-</button>
+                </div>
+                <div>
+                    <button onclick="bclick(7)" class="buttons">7</button>
+                    <button onclick="bclick(8)" class="buttons">8</button>
+                    <button onclick="bclick(9)" class="buttons">9</button>
+                    <button onclick="bclick('/')" class="buttons">/</button>
+
+                </div>
+                <div>
+                    <button onclick="bclick(0)"  class="buttons">0</button>
+                    <button onclick="bclick('.')" class="buttons">.</button>
+                    <button onclick="bclick('*')" class="buttons">x</button>
+                    <button onclick="bclick('%')" class="buttons">%</button>
+                </div>
+                <div>
+                    <button onclick="equalto('=')" class="buttons">=</button>
+                    <button onclick="back()" class="buttons">&#9003</button>
+                    <button id="clr" onclick="dclear()" class="buttons">C</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    
+</body>
+</html>
